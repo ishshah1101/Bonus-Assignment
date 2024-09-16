@@ -1,3 +1,12 @@
+import math
+
+def sqrt(x):
+    """Square root"""
+    if x < 0:
+        raise ValueError("Cannot take the square root of a negative number!")
+    return math.sqrt(x)
+
+
 # calculator.py
 def add(x, y):
 """Addition"""
